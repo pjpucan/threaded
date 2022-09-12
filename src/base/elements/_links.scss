@@ -1,0 +1,23 @@
+a {
+	color: $blue;
+	text-decoration: none;
+
+	&:visited {
+		color: $blue;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $blue;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

@@ -1,0 +1,63 @@
+.footer__info {
+	padding-top: 3.125rem;
+	padding-bottom: 3.125rem;
+
+	&--logo {
+		text-align: right;
+	}
+
+	&--help,
+	&--social,
+	&--company,
+	&--customer {
+		margin-bottom: 1.25rem;
+		font-weight: 600;
+	}
+
+	&--lists {
+		margin-left: 0;
+		margin-bottom: 2rem;
+		padding-left: 0;
+
+		li {
+			margin-bottom: 0.3125rem;
+
+			a {
+				color: $black;
+			}
+		}
+	}
+
+	&--social {
+		display: flex;
+		margin-bottom: 1.5625rem;
+
+		 li {
+		 	margin-right: 0.4375rem;
+		 }
+	}
+
+	&--logo,
+	&--copyright {
+		text-align: center;
+
+	}
+
+	&--copyright {
+		margin-top: 3rem;
+
+		@include media-breakpoint-up(lg) {
+			text-align: left;
+		}
+	}
+
+
+	&--logo {
+		margin-top: 0.5rem;
+		
+		@include media-breakpoint-up(lg) {
+			margin-top: 3rem;
+			text-align: right;
+		}
+	}
+}

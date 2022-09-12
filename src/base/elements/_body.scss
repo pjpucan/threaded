@@ -1,0 +1,9 @@
+body {
+	font-family: $font__regular;
+	font-size: $font__size-base;
+	font-weight: normal;
+	color: $black;
+	background: $body__bg;
+	@include font-smoothing();
+	overflow-x: hidden;
+}

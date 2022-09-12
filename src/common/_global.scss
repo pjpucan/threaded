@@ -1,0 +1,11 @@
+// Slick
+.global__carousel-slick {
+	.slick-next,
+	.slick-prev {
+		width: 1.4525rem;
+		height: 2.313125rem;
+		&:before {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,60 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 0.0625rem solid;
+	border-radius: 0.1875rem;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6rem 1rem 0.4rem;
+
+	&:hover {
+		border-color: none;
+	}
+
+	&:active,
+	&:focus {
+		border-color: none;
+	}
+}
+
+
+.btn {
+    padding: 0.625rem 1.25rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: none;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.25rem;
+    }
+
+    &--white {
+        color: $black !important;
+        background: $white;
+    }
+
+    &--black {
+        color: $white !important;
+        background: $black;
+    }
+
+    &--large {
+        width: 10rem;
+        padding: 0.5rem 0.7rem;
+        font-weight: 600;
+        font-size: 0.9rem;
+
+        @include media-breakpoint-up(lg) {
+            width: 17.375rem;
+            padding: 0.9375rem 1.875rem;
+            font-weight: 600;
+            font-size: 2.20rem;
+        }
+    }
+
+    &--shadow {
+        box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Development Assesment</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="./dist/index.js"></script>
+
+</head>
+<body>
+
+	<header id="header" class="header">
+		<div class="header__top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 d-lg-none d-xl-none">
+						<div class="logo">
+							<h1 class="logo--img">
+								<img src="./images/threaded-logo.svg" alt="Threaded">
+							</h1>
+
+							<div class="navbar navbar-expand-lg logo--hamburger">
+						 		<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+								 <span class="navbar-toggler-icon">
+								 	<i class="fa-solid fa-bars"></i>
+								 	<i class="fa-solid fa-xmark"></i>
+								 </span>
+						 		</button>
+							</div>
+						</div>
+					</div> <!-- end of grid -->
+
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<div class="col-12 col-lg-4">
+							<ul class="header__nav list-unstyled">
+								<li class="header__nav--item header__nav--item-active text-uppercase"><a href="#">Women</a></li>
+								<li class="header__nav--item text-uppercase"><a href="#">Plus</a></li>
+								<li class="header__nav--item text-uppercase"><a href="#">Men</a></li>
+								<li class="header__nav--item text-uppercase"><a href="#">Accessories</a></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4 d-none d-lg-block d-xl-block">
+							<div class="logo">
+								<div class="logo--img">
+									<img src="./images/threaded-logo.svg" alt="Threaded">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-3">
+							<ul class="header__icons list-unstyled">
+								<li class="header__icons--item"><a href="#"><img src="./images/icn-user.svg" alt="User Icon"></a></li>
+								<li class="header__icons--item"><a href="#"><img src="./images/icn-basket.svg" alt="Basket Icon"></a></li>
+								<li class="header__icons--item"><a href="#"><img src="./images/icn-heart.svg" alt="Heart Icon"></a></li>
+								<li class="header__icons--item"><a href="#"><img src="./images/icn-headphone.svg" alt="Headphone Icon"></a></li>
+								<li class="header__icons--item"><a href="#"><img src="./images/icn-search.svg" alt="Search Icon"></a></li>
+							</ul>
+						</div>
+
+						<div class="col-12 col-lg-1">
+							<ul class="header__currency list-unstyled">
+								<i class="fa-solid fa-chevron-down"></i>
+								<li class="header__currency--item"><a href="#"><img src="./images/icn-us-flag.png" alt="US Flag Icon"><span>USD $</span></a></li>
+								<li class="header__currency--item"><a href="#"><img src="./images/icn-ph-flag.png" alt="PH Flag Icon"><span>PHP</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div> <!-- end of row -->
+			</div> <!-- end of container -->
+		</div>
+
+		<div class="header__info">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<ul class="header__info--lists list-unstyled">
+							<li class="header__info--lists-item"><img src="./images/icn-vip.svg" alt="VIP Icon"><span>Exclusive Deals for VIP 2 and up!</span></li>
+							<li class="header__info--lists-item"><img src="./images/icn-new-arrivals.svg" alt="New Arrivals Icon"><span>Weekly New Arrivals</span></li>
+							<li class="header__info--lists-item"><img src="./images/icn-free-shipping.svg" alt="Free Shipping Icon"><span>Free Shipping On Orders Over $100</span></li>
+							<li class="header__info--lists-item"><img src="./images/icn-track-order.svg" alt="Track Order Icon"><span>Track Your Order</span></li>
+							<li class="header__info--lists-item"><img src="./images/icn-off-first-order.svg" alt="First Order Icon"><span>10% Off On Your First Order!</span></li>
+						</ul>
+					</div>
+				</div> <!-- end of row -->
+			</div> <!-- end of container -->
+		</div> <!-- end of header__info -->
+	</header><!-- end of header -->
+
+	<!-- Slider -->
+	<div class="slider__carousel global__carousel-slick" >
+		<div class="slider__carousel--items">
+			<img class="slider__carousel--img" src="./images/Black-Friday-Slider.jpg" alt="Black Friday Slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 position-relative">
+						<a href="#" class="btn btn--white btn--large btn--shadow">Shop Now</a>
+					</div>
+				</div> <!-- end of row -->
+			</div> <!--end of container -->
+		</div> <!-- end of carousel-items -->
+
+		<div class="slider__carousel--items">
+			<img class="slider__carousel--img" src="./images/Black-Friday-Slider2.jpg" alt="Black Friday Slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 position-relative">
+						<a href="#" class="btn btn--white btn--large btn--shadow">View</a>
+					</div>
+				</div> <!-- end of row -->
+			</div> <!--end of container -->
+		</div> <!-- end of carousel-items -->
+	</div> <!--- end of slider -->	
+
+	<!-- Site Wide Deals -->
+	<div class="sitewide__deals">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<div class="container">
+						<div class="row">
+							<div class="col-6 col-md-6 col-lg-3">
+								<div class="sitewide__deals--price">
+									$5
+									<sup class="sitewide__deals--price-off">Off</sup>
+								</div>
+
+								<p class="sitewide__deals--desc">
+									on orders above $50
+								</p>
+							</div> <!-- end of grid-3 -->
+
+							<div class="col-6 col-md-6 col-lg-3">
+								<div class="sitewide__deals--price">
+									$15
+									<sup class="sitewide__deals--price-off">Off</sup>
+								</div>
+
+								<p class="sitewide__deals--desc">
+									on orders above $75
+								</p>
+							</div> <!-- end of grid-3 -->
+
+							<div class="col-6 col-md-6 col-lg-3">
+								<div class="sitewide__deals--price">
+									$20
+									<sup class="sitewide__deals--price-off">Off</sup>
+								</div>
+
+								<p class="sitewide__deals--desc">
+									on orders above $150
+								</p>
+							</div> <!-- end of grid-3 -->
+
+							<div class="col-6 col-md-6 col-lg-3">
+								<div class="sitewide__deals--price">
+									$30
+									<sup class="sitewide__deals--price-off">Off</sup>
+								</div>
+
+								<p class="sitewide__deals--desc">
+									on orders above $200
+								</p>
+							</div> <!-- end of grid-3 -->
+						</div> <!-- end of row -->
+					</div> <!-- end of container -->
+				</div> <!-- end of grid-8 -->
+
+				<div class="col-12 col-lg-4 text-center">
+					<a href="#" class="btn btn--black">Check out all site-wide deals</a>
+				</div> <!-- end of grid-4 -->
+			</div> <!-- end of row -->
+		</div><!-- end of grid -->
+	</div>
+
+	<!-- Black Friday Eclusive -->
+	<div class="black__friday">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-5">
+					<h2 class="black__friday--title text-uppercase">black friday exclusive</h2>
+				</div> <!-- end of grid-5 -->
+
+				<div class="col-12 col-lg-4">
+					<h2 class="black__friday--sub-title text-uppercase">free shipping on all orders for <br />VIP 2 and up!</h2>
+				</div> <!-- end of grid-5 -->
+
+				<div class="col-12 col-lg-3 text-center">
+					<a href="#" class="btn btn--white">Shop Now</a>
+				</div> <!-- end of grid-2 -->
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div>
+
+	<!-- Trending -->
+	<div class="now__trending">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3 class="now__trending--title text-center">Now Trending</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<p class="now__trending--sub-title text-center">See what everyone’s wearing right now</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/winter-fashion.jpg" alt="Winter Fashion">
+						<h2>Winter Fashion</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/boots.jpg" alt="Boots">
+						<h2>Boots</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/night-out.jpg" alt="Night Out">
+						<h2>Night Out</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/holidays.jpg" alt="Holidays">
+						<h2>Holidays</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/outerwear.jpg" alt="Outerwear">
+						<h2>Outerwear</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/white-dresses.jpg" alt="White Dresses">
+						<h2>White Dresses</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/sweaters.jpg" alt="Sweaters">
+						<h2>Sweaters</h2>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="now__trending--content">
+						<img class="now__trending--img" src="./images/party.jpg" alt="Party">
+						<h2>Party</h2>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of container -->
+	</div> <!-- end of now__trending -->
+
+	<!-- New Arrival -->
+	<div class="new__arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+				</div>
+
+				<div class="col-12 col-lg-6">
+					<div class="new__arrivals--content">
+						<h3>New <br />Arrivals</h3>
+						<p>Get ready for the holidays with us!</p>
+						<div class="new__arrivals--btn">
+							<a href="#" class="btn btn--white">Shop Now</a>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of new__arrival -->
+
+	<!-- Recently Bought -->
+	<div class="recently__bought">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="12">
+					<h4 class="recently__bought--title text-center">Recently Bought</h4>
+				</div>
+			</div> <!-- end of row -->
+
+			<div class="row">
+				<div class="col-12">
+					<ul class="recently__bought--lists list-unstyled">
+						<li class="recently__bought--item">
+							<img class="recently__bought--img" src="./images/festive.jpg" alt="Festive">
+							<a href="#">Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</a>
+							<p>$38</p>
+						</li>
+
+						<li class="recently__bought--item">
+							<img class="recently__bought--img" src="./images/chevron.jpg" alt="Chevron">
+							<a href="#">Chevron Flap Crossbody Bag</a>
+							<p><span class="discounted-price">$5.77</span> <span class="regular-price">$7.34</span></p>
+						</li>
+
+						<li class="recently__bought--item">
+							<img class="recently__bought--img" src="./images/manilla.jpg" alt="Manilla">
+							<a href="#">Manilla Tan Multi Plaid Oversized Fringe Scarf</a>
+							<p><span class="discounted-price">$29</span> <span class="regular-price">$39</span></p>
+						</li>
+
+						<li class="recently__bought--item">
+							<img class="recently__bought--img" src="./images/diamante.jpg" alt="Diamante">
+							<a href="#">Diamante Puff Sleeve Dress - Black</a>
+							<p>$45.99</p>
+						</li>
+
+						<li class="recently__bought--item">
+							<img class="recently__bought--img" src="./images/banneth.jpg" alt="Banneth">
+							<a href="#">Banneth Open Front Formal Dress in Black</a>
+							<p><span class="discounted-price">$69</span> <span class="regular-price">$99.95</span></p>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of recently__bought -->
+
+	<!-- Next Inspo -->
+	<div class="next__inspo">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="12">
+					<h4 class="next__inspo--title text-center">Your Next Inspo</h4>
+					<p class="next__inspo--sub-title text-center">Checkout who’s wearing what by using #THREADEDInspo on Instagram</p>
+				</div>
+			</div> <!-- end of row -->
+
+			<div class="row">
+				<div class="col-12">
+					<ul class="next__inspo--lists list-unstyled">
+						<li class="next__inspo--item">
+							<img src="./images/inspo.jpg" alt="Inspo">
+						</li>
+
+						<li class="next__inspo--item">
+							<img src="./images/inspo1.jpg" alt="Inspo">
+						</li>
+
+						<li class="next__inspo--item">
+							<img src="./images/inspo2.jpg" alt="Inspo">
+						</li>
+
+						<li class="next__inspo--item">
+							<img src="./images/inspo3.jpg" alt="Inspo">
+						</li>
+
+						<li class="next__inspo--item">
+							<img src="./images/inspo4.jpg" alt="Inspo">
+						</li>
+					</ul>
+
+					<div class="next__inspo--btn">
+						<a href="#" class="btn btn--black text-uppercase">View All Posts</a>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of next__inspo -->
+
+	<!-- Sign Up -->
+	<div class="signup__newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<h5 class="signup__newsletter--title text-uppercase">sign up for exclusive deals and updates</h5>
+				</div>
+
+				<div class="col-12 col-lg-4">
+					<div class="signup__newsletter--input">
+						<input type="text" name="email" placeholder="Your Email Address" class="signup__newsletter--input-text" />
+						<button type="submint" class="signup__newsletter--btn"><i class="fa-solid fa-chevron-right"></i></button>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of sign__up -->
+
+	<footer class="footer__info">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-9">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-3">
+								<h6 class="footer__info--company text-uppercase">Company Info</h6>
+
+								<ul class="footer__info--lists list-unstyled">
+									<li><a href="#">About THREADED</a></li>
+									<li><a href="#">Affiliate</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Careers</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h6 class="footer__info--help text-uppercase">Help &amp; Support</h6>
+
+								<ul class="footer__info--lists list-unstyled">
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Shipping</a></li>
+									<li><a href="#">Returns</a></li>
+									<li><a href="#">How To Order</a></li>
+									<li><a href="#">How To Track</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h6 class="footer__info--customer text-uppercase">Customer Care</h6>
+
+								<ul class="footer__info--lists list-unstyled">
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Payment Methods</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Careers</a></li>
+								</ul>
+							</div>
+
+							<div class="col-12 col-lg-3">
+								<h6 class="footer__info--social text-uppercase">Follow Us</h6>
+
+								<ul class="footer__info--lists footer__info--social list-unstyled">
+									<li><a href="#"><img src="./images/icn-fb.svg" alt="Facebook"></a></li>
+									<li><a href="#"><img src="./images/icn-instagram.svg" alt="Instagram"></a></li>
+									<li><a href="#"><img src="./images/icn-twitter.svg" alt="Twitter"></a></li>
+									<li><a href="#"><img src="./images/icn-youtube.svg" alt="Youtube"></a></li>
+									<li><a href="#"><img src="./images/icn-pinterest.svg" alt="Pinterest"></a></li>
+									<li><a href="#"><img src="./images/icn-tiktok.svg" alt="Tiktok"></a></li>
+								</ul>
+
+								<h6 class="footer__info--payment text-uppercase">We Accept</h6>
+								<img src="./images/payment-methods.png" alt="Payment">
+							</div>
+						</div> <!-- end of row -->
+					</div> <!-- end of container -->
+				</div>
+
+				<div class="col-12 col-lg-3">
+				</div>
+			</div> <!-- end of row -->
+
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<p class="footer__info--copyright">&copy; 2021 THREADED All Rights Reserved.</p>
+				</div>
+				<div class="col-12 col-lg-6">
+					<h6 class="footer__info--logo">
+						<img src="./images/threaded-logo.svg" alt="Threaded">
+					</h6>
+				</div>
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</footer>
+
+	<script src="./js/plugins/bootstrap.bundle.min.js"></script>
+	<script src="./js/plugins/slick.min.js"></script>
+</body>
+</html>

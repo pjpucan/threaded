@@ -1,0 +1,12 @@
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $black;
+	font-family: $font__regular;
+	font-size: $font__size-base;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";

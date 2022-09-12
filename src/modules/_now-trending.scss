@@ -1,0 +1,31 @@
+.now__trending {
+	margin-top: 3.125rem;
+	margin-bottom: 3.125rem;
+
+	&--title {
+		margin-bottom: 1.25rem;
+		font-size: 2.25rem;
+		font-weight: 800;
+	}
+
+	&--sub-title {
+		font-size: 0.875rem;
+	}
+
+	&--content {
+		text-align: center;
+		margin-top: 1.25rem;
+		margin-bottom: 1.25rem;
+
+		h2 {
+			margin-top: 0.625rem;
+			font-size: 1.5rem;
+			font-weight: 600;
+		}
+	}
+
+	&--img {
+		max-width: 100%;
+		height: auto;
+	}
+}

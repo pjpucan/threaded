@@ -1,0 +1,42 @@
+.signup__newsletter {
+	padding: 1.25rem 0;
+	background: $black;
+
+	&--title {
+		margin-bottom: 0.9375rem;
+		color: $white;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 800;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 0;
+			text-align: left;
+		}
+	}
+
+	&--input {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 0.7rem;
+
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 0;
+		}
+
+		&-text {
+			width: 100%;
+		}
+	}
+
+	&--btn {
+		z-index: 2;
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0.7rem 1rem 0.6rem;
+		background: transparent;
+		border: 0;
+    	border-radius: 0;
+	}
+}

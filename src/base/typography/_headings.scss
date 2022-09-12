@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	//font-family: $font__bold;
+}
+
+.primary__heading {
+	color: $white;
+	//font-family: $font__extrabold;
+	font-size: 64px;
+	text-align: center;
+
+}
+										
+.secondary__heading-light {
+	color: $black;
+	font-size: 56px;
+	//font-family: $font__light;
+}

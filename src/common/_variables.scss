@@ -1,0 +1,25 @@
+/* --------------------
+   Colors
+   -------------------- */
+$white-smoke: 	#F2F2F2;
+$white-whisper:	#E5E5E5;
+$red:			#C1272D;
+
+
+/* --------------------
+   Fonts
+   -------------------- */
+$font__size-base:    		16px; // Assumes the browser default, typically `16px`
+$body__bg:           	 	$white;
+$font__line-height-body: 	1.5;
+
+$font__regular:     'Montserrat', sans-serif;
+$font__thin:		'Montserrat',sans-serif;
+$font__light:		'WorkSans-Light', Helvetica, Arial, sans-serif;
+$font__extralight:	'WorkSans-ExtraLight', Helvetica, Arial, sans-serif;
+$font__medium:      'WorkSans-Medium', Helvetica, Arial, sans-serif;
+$font__semibold:	'WorkSans-SemiBold', Helvetica, Arial, sans-serif;
+$font__bold:   		'WorkSans-Bold', Helvetica, Arial, sans-serif;
+$font__extrabold:   'WorkSans-ExtraBold', Helvetica, Arial, sans-serif;
+
+$fa-font-path: 		"./fonts/fontawesome";
